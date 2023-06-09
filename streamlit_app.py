@@ -52,8 +52,8 @@ def get_fruit_load_list():
          my_cur.execute("select * from fruit_load_list")
          return my_cur.fetchall()
       
-   my_data_rows = get_fruit_load_list()
-   streamlit.dataframe(my_data_rows)
+   #my_data_rows = get_fruit_load_list()
+   #streamlit.dataframe(my_data_rows)
       
 #don't run anything past here while we troubleshoot 
 streamlit.stop()
